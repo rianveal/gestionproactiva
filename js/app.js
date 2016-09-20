@@ -26,7 +26,7 @@ $(document).ready(function(){
 
   // Slider de la cabecera principal
   $('.slide').slick({
-  	dots: true,
+    dots: true,
     infinite: true,
     speed: 700,
     fade: true,
@@ -152,6 +152,9 @@ $(document).ready(function(){
       }else if(idEle == 'btnReadPS'){
         $('#ctnReadPS').css('display','block')
         $('#ctnReadPS').siblings('div').css('display','none')
+      }else if(idEle == 'btnReadDE'){
+        $('#ctnReadDE').css('display','block')
+        $('#ctnReadDE').siblings('div').css('display','none')
       }
     }
   })
@@ -194,7 +197,7 @@ $(document).ready(function(){
         $('.service-GC').css('display','block')
         $('.service-GC').siblings().css('display','none')
       }else if( el.attr('id') == 'btnSST' ){
-        $('.service-head--logo h1').text('Seguridad y salud en el trabajo')
+        $('.service-head--logo h1').text('Seguridad y salud en el trabajo - SGSST')
         $('.service-SST').css('display','block')
         $('.service-SST').siblings().css('display','none')
       }else if( el.attr('id') == 'btnAU' ){
@@ -237,7 +240,7 @@ $(document).ready(function(){
         $('.service-GC').css('display','block')
         $('.service-GC').siblings().css('display','none')
       }else if( el.attr('id') == 'btnSST' ){
-        $('.service-head--logo h1').text('Seguridad y salud en el trabajo')
+        $('.service-head--logo h1').text('Seguridad y salud en el trabajo - SGSST')
         $('.service-SST').css('display','block')
         $('.service-SST').siblings().css('display','none')
       }else if( el.attr('id') == 'btnAU' ){
